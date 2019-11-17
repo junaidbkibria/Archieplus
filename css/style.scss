@@ -1,0 +1,401 @@
+// font-family: 'Roboto', sans-serif;
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+$green: #05CBB8;
+.scrollable{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    position: sticky !important;
+}
+.bulk{
+    position: relative;
+}
+// topbar starts
+.topbar{
+    font-size: 1.2rem;
+    color: black;
+    .custom_border{
+        border-bottom: 1px solid #898989;
+        padding: 5px 0;
+    }
+    .topbar_text{
+        font-size: 16px;
+        font-weight: 300;
+    }    
+    .phone{
+        // font-size: 21px;
+        // padding-right: 40px;
+        a{
+            color: black !important;
+            text-decoration: none;
+        }
+    }
+    .info{
+        // font-size: 21px;
+        a{
+            color: black !important;
+            text-decoration: none;
+        }
+    }
+}
+.phone a:hover{
+    color:#8260E3 !important;
+}
+.info a:hover{
+    color:#8260E3 !important;
+}
+// topbar ends
+// header starts
+.header{
+    // position: sticky !important;
+    .nav{
+    }
+    .menu{
+        .nav_custom{
+            padding-right: 0; 
+            padding-left: 30px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        ul{
+	        li{
+                a{
+                    color: black !important;
+                    transition: 0.5s !important;
+                    &:hover{
+                        color: #8260E3 !important ;
+                    }
+                }
+            }
+        }
+    }
+}
+// header ends
+// slider starts
+.slider{
+    .custom_item{
+        position: relative;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .slider_content{
+            text-align: center;
+            color: #fff;
+            position: relative;
+            h4{
+                
+            }
+            .custom_h1{
+                
+            }
+            .btn_custom{
+                background: $green;
+                border: none;
+                color: #fff;
+                transition: 0.5s;
+            }
+        }
+        button:focus {outline:0;}
+    }
+    .custom-footer{
+        text-align: center;
+        .btn-custom3{
+            font-size: 18px;
+            width: 130px;
+            height: 40px;
+            background: #05CBB8;
+            border: none;
+            color: #fff;
+            transition: 0.5s;
+            margin: 0 auto;
+        }
+    }
+}
+.btn_custom:hover{
+    background-color: rgb(3, 150, 135) !important;
+}
+// slide ends
+// about us begins
+.aboutUs{
+    .top{
+        padding-bottom: 25px;
+        h1{
+            color: #464D50;
+            font-weight: 400;
+        }
+        h5{
+            color: #898989;
+            font-weight: 400;
+        }
+    }
+    .middle{
+        
+        p{
+            color: #898989;
+            font-weight: 300;
+            line-height: 1.7rem;
+        }
+    }
+    .bottom{
+        text-align: center;
+       .custom_item{
+            border: 1px solid #898989;
+            padding: 50px 25px;
+            i{
+                font-size: 30px;
+            }
+            h3{
+                font-weight: 700;
+                font-size: 12px;
+                color: #464D50;
+                // margin-top: 12px;
+            }
+       }
+    }
+}
+// about us ends
+// projects begins
+.project{
+    position: relative;
+    background: #EAF2F5;
+    .team-area{
+        margin: 0 auto;
+        width: 90%;
+       .single-team{
+           width: 100%;
+           position: relative;
+           transition: 0.5s ease-out;
+           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+           &:hover::before{
+               opacity: 1;
+           }
+           &:hover .team-text{
+               opacity: 1;
+           }
+           &::before{
+               content: '';
+               position: absolute;
+               top: 0;
+               left: 0;
+               display: block;
+               width: 100%;
+               height: 100%;
+               background: linear-gradient(to top, #000, transparent);
+               z-index: 2;
+               transition: 0.6s;
+               opacity: 0;
+           }
+           img{
+               width:100%;
+               height: 100%;
+               position: absolute;
+               top: 0;
+               left: 0;
+               object-fit: cover;
+               padding-bottom: 0;
+           }
+           .team-text{
+               position: relative;
+               z-index: 3;
+               color: #fff;
+               opacity: 0;
+               text-align: center;
+               i{
+                   
+               }
+               a{
+                   color: white;
+               }
+            }
+       }
+    }
+    button:focus {outline:0;}
+}
+.left_text{
+    h1{
+        color: #464D50;
+        font-weight: 400;
+    }
+    h5{
+        color: #898989;
+        font-weight: 400;
+    }
+    p{
+        color: #898989;
+        font-weight: 300;
+        line-height: 1.7rem;
+        padding: 20px 0;
+    }
+    .btn_custom1{
+        background: $green;
+        border: none;
+        color: #fff;
+        box-shadow: 0 10px 30px 0 rgba(5,203,184,.32);
+        transition: 0.5s;
+    }
+}
+.btn_custom1:hover{
+    background-color: rgb(3, 150, 135) !important;
+}
+.notVisible{
+    button:focus {outline:0;}
+}
+// project ends
+// testimonials begin
+.testimonials{
+    background: $green;
+    color: #fff;
+    img{
+    }
+    .custom_carousel{
+        // margin: 200px 200px 200px 0;
+        .custom-indicator{
+            
+            li{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+            }
+        }
+        h2{
+            font-weight: 400;
+        }
+        h5{
+            font-weight: 400;
+        }
+        p{
+            font-weight: 300;
+        }
+    }
+}
+// testimonials endss
+// blog begins
+.blog{
+    button:focus {outline:0;}
+    .custom-card{
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    }
+    h1{
+        font-weight: 400;
+        text-align: center;
+    }
+    h4{
+        color: #898989;
+        font-weight: 400;
+        text-align: center;
+    }
+    h6{
+        color: $green;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .btn_custom2{
+        height: 60px;
+        width: 180px;
+        margin-top: 50px;
+        background: #05CBB8;
+        border: none;
+        color: #fff;
+        box-shadow: 0 10px 30px 0 rgba(5,203,184,.32);
+        transition: 0.5s;
+        &:hover{
+            background-color: rgb(3, 150, 135) !important;
+        }
+    }
+    .blogInvsible{
+        button:focus {outline:0;}
+    }
+}
+// blog ends
+// contact begins
+.contact{
+    background: #EAF2F5;
+    button:focus {outline:0;}
+}
+
+// contact ends
+// footer begins
+.footer{
+    background: #2C323E;
+    padding: 60px 0;
+    .l{
+        img{
+            margin-bottom: 32px;
+        }
+        h4{
+            color: white;
+        }
+        p{
+            color: #8F97A6;
+        }
+        i{
+            font-size: 45px;
+            padding-right: 10px;
+            margin-top: 20px;
+        }
+        .f{
+            color: #3B5A9A;
+        }
+        .p{
+            color: #CB2027;
+        }
+        .g{
+            color: #CB3E2D;
+        }
+    }
+    .x{
+        h4{  
+            color: white;
+        }
+        ul{
+            padding-left: 0;
+            li{
+                list-style: none;
+                padding: 3.5px 0;
+                a{
+                    color: #8F97A6;
+                    text-decoration: none;
+                    transition: 0.3s;
+                    font-size: 18px;
+                    &:hover{
+                        color: $green;
+                    }
+                }
+            }
+        }
+    }
+    .r{
+        h4{
+            color: white;
+        }
+        p{
+            color: #8F97A6;
+            padding: 20px 0;
+        }
+        .custom-input{
+            border-radius: 30px;
+            button{
+                background: $green;
+                i{
+                    color: white;
+                }
+            }
+        }
+    }
+}
