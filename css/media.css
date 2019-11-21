@@ -1,8 +1,3 @@
-@media (max-width: 320.02px){
-    /* .bulk{
-        top: 184px !important;
-    } */
-}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* topbar starts */
@@ -21,7 +16,7 @@
     /* topbar ends */
     /* header start */
     .menu{
-        background: #05CBB8;
+        background: #fc4c8d;;
     }
     .menu ul li a{
         text-align: center;
@@ -29,7 +24,7 @@
     /* header ends */
     /* slider startsss */
     .slider{
-        padding: 30px 0;
+        padding-bottom: 20px;
     }
     .content{
         text-align: center;
@@ -45,9 +40,7 @@
             width: 120px;
             height: 35px;
             margin-top: 20px;
-            font-size: 11px;
-            background: #05CBB8;    
-            border: none;
+            font-size: 11px;   
             color: #fff;
             transition: 0.5s;
     }
@@ -93,6 +86,11 @@
         width: 185px;
         height: 52px;
         font-size: 15px; 
+        margin-top: 40px;
+    }
+    .pb{
+        width: 170px;
+        height: 40px;
     }
     .project img{
         padding-bottom: 20px;
@@ -122,7 +120,7 @@
         padding: 40px 20px;
         text-align: center;
     }
-    .testimonials h2{
+    .testimonials h1{
         font-size: 33px;
     }
     .testimonials h5{
@@ -147,6 +145,10 @@
     }
     .custom-card{
     }
+    .bb{
+        width: 140px !important;
+        height: 40px !important;
+    }
     .btn_custom2{
         font-size: 15px;
     }
@@ -155,6 +157,11 @@
     .contact{
         padding-top: 50px;
         padding-bottom: 30px;
+    }
+    .contact-btn{
+        margin-top: 0;
+        width: 130px;
+        height: 40px;
     }
     /* contact endss */
     /* footer begins */
@@ -168,6 +175,13 @@
     }
     .r{
         margin-top: 20px;
+        text-align: center;
+    }
+    .r p{
+        padding: 3px 0 !important;
+    }
+    .x{
+        margin-top: 32px;
         text-align: center;
     }
     /* footer ends */
@@ -195,7 +209,7 @@
     /* topbar ends */
     /* header start */
     .menu{
-        background: #05CBB8;
+        background: #fc4c8d;
     }
     .menu ul li a{
         text-align: center;
@@ -213,8 +227,8 @@
         font-size: 2.5rem !important;
     }
     .btn_custom{
-            width: 150px;
-            height: 45px;
+            width: 130px;
+            height: 35px;
             margin-top: 20px;
             font-size: 14px;    
     }
@@ -244,7 +258,7 @@
     .btn_custom1{
         width: 185px;
         height: 52px;
-        margin-top: 17px;
+        margin-top: 35px;
         font-size: 15px; 
     }
     .project img{
@@ -270,9 +284,10 @@
     /* projects ends */
     /* testimonials begins */
     .testimonials{
-        padding: 50px 0;
+        padding-top: 50px;
+        padding-bottom: 78px;
     }
-    .testimonials h2{
+    .testimonial-header h1{
         text-align: center;
         font-size: 2.5rem;
     }
@@ -305,6 +320,9 @@
         padding-bottom: 30px;
         text-align: center;
     }
+    .contact-btn{
+        margin-top: 0;
+    }
     /* contact ends */
     /* footer begins */
     .r{
@@ -332,7 +350,7 @@
     /* topbar ends */
     /* header start */
     .menu{
-        background: #05CBB8;
+        background: #fc4c8d;
     }
     .menu ul li a{
         text-align: center;
@@ -350,8 +368,8 @@
         font-size: 3rem !important;
     }
     .btn_custom{
-        width: 180px;
-        height: 53px;
+        width: 150px;
+        height: 43px;
         margin-top: 20px;
         font-size: 15px;    
     }
@@ -403,10 +421,13 @@
     .testimonials{
         
     }
+    .tmm{
+        margin-bottom: 33px;
+    }
     .testimonials img{
         padding-top: 150px;
     }
-    .custom_carousel h2{
+    .custom_carousel h1{
         font-size: 25px;
     }
     .custom_carousel h5{
@@ -430,10 +451,16 @@
     /* blog ends */
     /* contact bagins */
     .contact{
-        padding-top: 50px;
+        /* padding-top: 50px; */
+    }
+    .contact-btn{
+        margin-top: 0;
+    }
+    .lt{
+        margin-top: 60px !important;
     }
     .contact img{
-        padding-top: 64px;
+        margin-top: 144px;
     }
     /* contact ends */
     /* .bulk{
@@ -467,8 +494,8 @@
             font-size: 3.5rem !important;
         }
         .btn_custom{
-            width: 210px;
-            height: 62px;
+            width: 180px;
+            height: 50px;
             margin-top: 20px;
             font-size: 16px;    
         }
@@ -493,8 +520,8 @@
         } 
         .left_text p{}   
         .btn_custom1{
-            width: 230px;
-            height: 52px;
+            width: 190px;
+            height: 50px;
             margin-top: 17px;
             font-size: 16px; 
         }
@@ -533,6 +560,12 @@
         .contact{
             padding-top: 50px;
         }
+        .contact-btn{
+            margin-top: 0;
+        }
+        .lt{
+            margin-top: 5px;
+        }
         .contact img{
             padding-top: 75px;
         }
@@ -569,8 +602,8 @@
         font-size: 4.5rem !important;
     }
     .btn_custom{
-        width: 240px;
-        height: 70px;
+        width: 180px;
+        height: 50px;
         margin-top: 20px;
         font-size: 17px;    
     }
@@ -591,7 +624,9 @@
     .project{
         padding: 110px 0;
     }
-    .left_text{}
+    .left_text{
+        
+    }
     .left_text h1{
         margin-bottom: 4px;
     }
@@ -602,7 +637,7 @@
     .btn_custom1{
         width: 240px;
         height: 55px;
-        margin-top: 20px;
+        margin-top: 50px;
         font-size: 17px; 
     }
     .single-team{
@@ -635,7 +670,18 @@
     /* blog ends */
     /* contact begins */
     .contact{
-        padding-top: 50px;
+        padding-top: 30px;
+    }
+    .contact-btn{
+        margin-top: 0;
+        width: 190px;
+        height: 55px;
+    }
+    .lt{
+        margin-top: 60px;
+    }
+    .contact img{
+        margin-top: 173px;
     }
     /* contact ends */
     /* .bulk{
